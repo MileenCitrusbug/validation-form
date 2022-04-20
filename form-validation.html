@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Form validation</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="head">Registeration Form</h1>
+    <div class="col-lg-8 m-auto d-block">
+        <form >
+        <div class="field">
+            <label>Name:</label>
+            <input type="text" name="name" class="form-control" id="name" >
+            <span id="nameerror" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label>Username:</label>
+            <input type="text" name="username" class="form-control" id="username">
+            <span id="usernameerror" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label>Email:</label>
+            <input type="email" name="email" class="form-control" id="email" >
+            <span id="emailerror" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label>Age:</label>
+            <input type="number" name="age" class="form-control" id="age" >
+            <span id="ageerror" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label>Password:</label>
+            <input type="password" name="password" class="form-control" id="password">
+            <span id="passworderror" class="text-danger"></span>
+        </div>
+        <div class="field">
+            <label>Confirm Password:</label>
+            <input type="password" name="confirm password" class="form-control" id="password2" >
+            <span id="password2error" class="text-danger"></span>
+        </div><br>
+        <input class="btn btn-success" type="submit" name="submit" id="submit">
+        </form>
+    </div>
+</div>
+
+    
+</body>
+</html>
